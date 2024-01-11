@@ -33,4 +33,6 @@ admin.site.site_title = 'Okuu keremet!'
 urlpatterns = [
     path(f'{adminPath}/', admin.site.urls),
     path('', include('kg.urls')),
+    path('kg', include('kg.urls')),
+    path('ru/', include('ru.urls')),
 ]
