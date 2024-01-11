@@ -26,9 +26,9 @@ if(adminPath == None):
     adminPath = 'admin'
 
 # Admin Display
-admin.site.site_header = 'My Name'         
+admin.site.site_header = 'Okuu keremet!'         
 admin.site.index_title = 'Portfolio'
-admin.site.site_title = 'Sandeep Shaw' 
+admin.site.site_title = 'Okuu keremet!' 
 
 urlpatterns = [
     path(f'{adminPath}/', admin.site.urls)
