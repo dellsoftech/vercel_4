@@ -31,5 +31,6 @@ admin.site.index_title = 'Portfolio'
 admin.site.site_title = 'Okuu keremet!' 
 
 urlpatterns = [
-    path(f'{adminPath}/', admin.site.urls)
+    path(f'{adminPath}/', admin.site.urls),
+    path('', include('kg.urls')),
 ]
