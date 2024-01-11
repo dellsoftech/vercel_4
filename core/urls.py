@@ -31,6 +31,5 @@ admin.site.index_title = 'Portfolio'
 admin.site.site_title = 'Sandeep Shaw' 
 
 urlpatterns = [
-    path('', include("app.urls")),
-    path(f'{adminPath}/', admin.site.urls),
+    path(f'{adminPath}/', admin.site.urls)
 ]
