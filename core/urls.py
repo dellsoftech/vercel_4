@@ -35,4 +35,5 @@ urlpatterns = [
     path('', include('kg.urls')),
     path('kg', include('kg.urls')),
     path('ru/', include('ru.urls')),
+    path('uz/', include('uz.urls')),
 ]
